@@ -1,16 +1,18 @@
 import { Flex, HStack, Image, Text } from '@chakra-ui/react';
 import logo from '../assets/logo.webp';
 import ColorModeSwitch from './ColorModeSwitch';
+import SearchInput from './SearchInput';
 
 const Navbar = () => {
     return (
-        <Flex justify={'space-between'} paddingX={'10px'}>
-            <HStack>
+        <HStack paddingX={'10px'} spacing={10}>
+            <Flex align="center">
                 <Image src={logo} boxSize="60px" />
                 <Text>GameHub</Text>
-            </HStack>
+            </Flex>
+            <SearchInput />
             <ColorModeSwitch />
-        </Flex>
+        </HStack>
     );
 };
 

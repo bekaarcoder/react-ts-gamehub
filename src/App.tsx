@@ -3,7 +3,6 @@ import './App.css';
 import GameGrid from './components/GameGrid';
 import GameHeading from './components/GameHeading';
 import GenreList from './components/GenreList';
-import Navbar from './components/Navbar';
 import PlatformSelector from './components/PlatformSelector';
 import SortSelector from './components/SortSelector';
 
